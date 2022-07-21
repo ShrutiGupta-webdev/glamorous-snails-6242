@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeskTime</title>
+    <link rel="stylesheet" href="header and footer.css">
+    <style>
+        .main{
+           text-align: center;
+            padding-top:100px ;
+        }
+        form{
+            padding-top:20px ;
+            text-align: left;
+            justify-content: center;
+            display: grid;
+            gap: 10px;
+        }
+        form > input{
+            padding: 10px;
+            width: 300px;
+        }
+       #social{
+        margin: auto;
+        width:350px;
+
+        border: 0.5px solid grey;
+        padding: 20px;
+        
+       }
+       #social>div{
+        display: flex;
+       }
+       #social>div img{
+        margin:10px 10px;
+       }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <img src="	https://desktime.com/assets/new-styles/dist/assets/Logo-Dark-Text-Without-Padding.svg
+            " alt="Logo">
+        <div class="navbarpages"> 
+            <a href="/">Demo</a>
+            <a href="/">Feature</a>
+            <a href="/">Pricing</a>
+            <a href="/">FAQs</a>
+            <a href="/">Blog</a>
+             <button style="background-color: white;border:0.5px solid rgb(100, 100, 100)">LOGIN</button>
+             <button id="Btnlog">SIGNUP</button>
+        
+        </div>
+    </header>
+    
+    <div class="main">
+        <h2>Log in to DeskTime</h2>
+
+        <form id="Login">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Type in your email address" value="">
+        <label for="Password">Password</label>
+        <input type="password" id="password" placeholder="Type in your password" value="">
+        <button style="width:100%" type="submit" id="Btnlog">Login</button>
+    </form>
+    <h2 id="message"></h2>
+    <p><a href="/">I forgot password</a></p>
+    <p>Don’t have an account yet? <a href="/">Sign up here!</a></p>
+    <div id="social">
+        <p>Or connect with</p>
+        <div><img style="height:40px;
+            width:40px;" src="https://patch.com/img/cdn/users/44719/2015/10/raw/201510562986a77bbc3.png" alt="facebook">
+        <img style="height:40px;
+        width:40px;"src="https://www.todaysgolfer.co.uk/PageFiles/1111720/Z-Twitter.jpg" alt="tiwtter">
+        <img style="height:40px;
+        width:40px;" src="https://lofrev.net/wp-content/photos/2017/04/linkedin_logo-1007x1007.jpg" alt="Linkedin">
+        <img style="height:40px;
+        width:40px;" src="https://th.bing.com/th/id/R.e1539dd45bf195eba48032f7686042e3?rik=F2o0nHcOFODwyQ&riu=http%3a%2f%2fexpresswriters.com%2fwp-content%2fuploads%2f2015%2f09%2fgoogle-new-logo-450x450.jpg&ehk=i3Z5KhOX%2b9Spo9P4A3l8sSgysPgnW5akprYNORg4H1Y%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Google">
+        <img style="height:40px;
+        width:40px;" src="https://th.bing.com/th/id/R.fa5e67376018e06bd8ffb06b3129a717?rik=7G91umXpvhJBjg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2016%2f10%2fapple-emblem.jpg&ehk=oZn9asOkaHE7jnq1KK2bsdCC3PpQvx52gN9eXh7e294%3d&risl=&pid=ImgRaw&r=0" alt="apple">
+    </div>
+    </div>
+    </div>
+
+
+    <footer>
+        <div class="foot1">
+            <div><p>Company</p>
+                <p><a href="/">Home</a></p>
+                <p><a href="/">Terms</a></p>
+                <p><a href="/">Privacy</a></p>
+                <p><a href="/">Cookies</a></p>
+                <p><a href="/">Affiliate terms</a></p>
+                <p><a href="/">Download App</a></p>
+                <p><a href="/">Pricing</a></p>
+                <p><a href="/">Affiliate</a></p>
+                <p><a href="/">Press</a></p>
+                <p><a href="/">DeskTime in your language</a></p>
+            </div>
+            <div><p>Learn more</p>
+                <p><a href="/">All resources</a></p>
+                <p><a href="/">Employee monitoring guide</a></p>
+                <p><a href="/">Online employee time clock</a></p>
+                <p><a href="/">Best time tracking apps</a></p>
+                <p><a href="/">DeskTime for business</a></p>
+                <p><a href="/">DeskTime for freelancers</a></p>
+                <p><a href="/">FAQs</a></p>
+                <p><a href="/">Case studies</a></p>
+                <p><a href="/">Webinars</a></p>
+                <p><a href="/">Blog</a></p>
+            </div>
+            <div><p>Integrations</p>
+                <p><a href="/">All Integrations</a></p>
+                <p><a href="/">Trello</a></p>
+                <p><a href="/">Basecamp</a></p>
+                <p><a href="/">Jira</a></p>
+                <p><a href="/">Asana</a></p>
+                <p><a href="/">Outlook Calander</a></p>
+                <p><a href="/">Google Calander</a></p>
+            </div>
+            <div><p>Features</p>
+                <p><a href="/">All Features</a></p>
+                <p><a href="/">Automatic time tracking</a></p>
+                <p><a href="/">URL & APP tracking</a></p>
+                <p><a href="/">Screeenshots</a></p>
+                <p><a href="/">Projects time tracking</a></p>
+                <p><a href="/">Shif Schedule</a></p>
+                <p><a href="/">Offline time tracking</a></p>
+                <p><a href="/">Invoicing</a></p>
+                <p><a href="/">Absent calander</a></p>
+                <p><a href="/">Mobile App</a></p>
+                <p><a href="/">Feature request</a></p>
+            </div>
+            <div><p>Help Center </p>
+                <p><a href="/">Contacts</a></p>
+                <p><a href="/">Schedule a call</a></p>
+                <p><a href="/">Send us an email</a></p>
+                <p><a href="/">Request In-Person training</a></p>
+                <p><a href="/">Open chat</a></p>
+                <p>Phone Support</p>
+                <p><a href="tel:+1(315)6365354">USA: +1 (315) 6365354</a></p>
+                <p><a href="tel:+37127337268">EU: +371 27337268</a></p>
+            </div>
+        </div>
+        <div class="foot2">
+        <div class="sub-foot">
+            <div><img src="https://desktime.com/assets/new-styles/dist/assets/Logo-Dark-Text-Without-Padding.svg" alt="logo"></div>
+                <div> <img src="https://desktime.com/assets/new-styles/dist/assets/Google-Play.svg" alt="google store">
+        <img src="	https://desktime.com/assets/new-styles/dist/assets/App-Store.svg" alt="appstore"></div>
+        </div>
+        <div class="sub-foot"><div class="social">
+            <img src="" alt="">
+        </div>
+        <div> <input type="email" placeholder="Your work email" id="Subscribe01"> <button id="Btnlog">START FREE TRAIL</button></div></div>
+    </div>
+    <div class="cpyrts ">
+        <p>© 2011 - 2022 DeskTime</p>
+    </div>
+    </footer>
+</body>
+</html>
